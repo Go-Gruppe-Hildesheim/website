@@ -2,19 +2,6 @@
 
 Eine einfache Website für die Go-Gruppe Hildesheim, erstellt mit Astro, DaisyUI und Tailwind CSS.
 
-## Entwicklung
+## Impressum
 
-```bash
-npm install
-npm run dev
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## Treffen
-
-Wir treffen uns jeden Dienstag im Deseo, einer gemütlichen Bar in Hildesheim.
+Zur Zeit sind Levins Kontaktdaten im Impressum eingetragen. Er hat eine Briefkastenadresse in Berlin für seine Selbstständigkeit. Dadurch sind alle rechtlichen Angaben gegeben und die anderen Leute aus der Gruppe brauchen ihre Daten nicht anzugeben. Wenn jemand anders die Verantwortung übernehmen will, kann er oder sie sich gerne in den Diskussionen oder den Issues diesbezüglich melden.
