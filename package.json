@@ -1,0 +1,24 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Go-Gruppe Hildesheim Website",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "keywords": ["go", "hildesheim", "astro"],
+  "author": "Levin Keller",
+  "license": "ISC",
+  "dependencies": {
+    "@astrojs/tailwind": "^6.0.2",
+    "astro": "^5.12.9",
+    "daisyui": "^5.0.50",
+    "tailwindcss": "^3.4.17"
+  },
+  "engines" : {
+    "node": "^22"
+  }
+}
