@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: go-hildesheim
+spec:
+  replicas: 1
+  revisionHistoryLimit: 2
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: go-hildesheim
+  template:
+    metadata:
+      labels:
+        app: go-hildesheim
+    spec:
+      containers:
+      - name: go-hildesheim
+        image: ghcr.io/go-gruppe-hildesheim/website
+        ports:
+        - containerPort: 80
+        env:
+        - name: HOST
+          value: 0.0.0.0
+        - name: PORT
+          value: '80'
+      enableServiceLinks: false
+      imagePullSecrets:
+        - name: ghcr-pull
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: go-hildesheim
+spec:
+  selector:
+    app: go-hildesheim
+  ports:
+  - name: p80
+    port: 80
+    targetPort: 80
