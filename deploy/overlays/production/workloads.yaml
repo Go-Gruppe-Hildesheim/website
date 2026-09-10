@@ -23,7 +23,7 @@ spec:
       labels:
         app: go-hildesheim
       annotations:
-        levinkeller.de/dist-commit: "0000000000000000000000000000000000000000"
+        levinkeller.de/dist-commit: "217fe4433564c6e48ff0081f1103817d34fff62a"
     spec:
       enableServiceLinks: false
       initContainers:
