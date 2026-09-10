@@ -4,6 +4,11 @@ export interface Props {
 }
 
 const { title } = Astro.props;
+
+// Tailwind + daisyUI kommen seit dem Wechsel auf Tailwind 4 ueber diesen
+// Import ins Bundle (frueher hat die Integration @astrojs/tailwind das
+// automatisch getan).
+import '../styles/global.css';
 ---
 
 <!DOCTYPE html>

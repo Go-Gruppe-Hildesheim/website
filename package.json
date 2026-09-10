@@ -9,16 +9,20 @@
     "build": "astro build",
     "preview": "astro preview"
   },
-  "keywords": ["go", "hildesheim", "astro"],
+  "keywords": [
+    "go",
+    "hildesheim",
+    "astro"
+  ],
   "author": "Levin Keller",
   "license": "ISC",
   "dependencies": {
-    "@astrojs/tailwind": "^6.0.2",
+    "@tailwindcss/vite": "^4.3.3",
     "astro": "^7.3.2",
     "daisyui": "^5.7.28",
     "tailwindcss": "^4.3.3"
   },
-  "engines" : {
+  "engines": {
     "node": "^22"
   }
 }

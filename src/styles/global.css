@@ -1,0 +1,9 @@
+/* Tailwind 4 wird CSS-first konfiguriert -- diese Datei ersetzt die frueheren
+   `tailwind.config.mjs` und die Integration `@astrojs/tailwind`. */
+@import "tailwindcss";
+
+/* daisyUI 5 ist ein Tailwind-Plugin und wird hier geladen. Wie bisher nur das
+   helle Theme, damit die Seite nicht je nach Systemeinstellung umschaltet. */
+@plugin "daisyui" {
+  themes: light --default;
+}
