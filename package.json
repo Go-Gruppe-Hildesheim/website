@@ -18,8 +18,8 @@
   "license": "ISC",
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
-    "astro": "^7.3.2",
-    "daisyui": "^5.7.36",
+    "astro": "^7.3.3",
+    "daisyui": "^5.7.40",
     "tailwindcss": "^4.3.3"
   },
   "engines": {
