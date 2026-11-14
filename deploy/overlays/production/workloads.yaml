@@ -23,7 +23,7 @@ spec:
       labels:
         app: go-hildesheim
       annotations:
-        levinkeller.de/dist-commit: "0000000000000000000000000000000000000000"
+        levinkeller.de/dist-commit: "6d5deb3851671c03b2b9c4e22fb8ce6b21f251e2"
     spec:
       # Eigener User-Namespace: root im Container ist auf dem Host kein root.
       hostUsers: false
